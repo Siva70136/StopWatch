@@ -1,0 +1,63 @@
+/* Write CSS here */
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-container {
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.watch {
+  width: 30px;
+  height: 30px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 4px;
+  width: 60px;
+  margin: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.start {
+  background-color: green;
+}
+.stop {
+  background-color: red;
+}
+.reset {
+  background-color: orange;
+}
+
+@media screen and (max-width: 576px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+  }
+}
